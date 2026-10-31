@@ -1,30 +1,35 @@
+
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from "react";
 
 export default function DynamicDate() {
-  const [currentDate, setCurrentDate] = useState(new Date());
+  const [currentDate, setCurrentDate] = useState<Date | null>(null);
 
   useEffect(() => {
-    const timer = setInterval(() => {
+    const updateDate = () => {
       setCurrentDate(new Date());
-    }, 1000 * 60); // Update every minute
+    };
+
+    updateDate();
+
+    const timer = setInterval(updateDate, 1000);
 
     return () => clearInterval(timer);
   }, []);
 
-  const formatDate = (date: Date) => {
-    return date.toLocaleDateString('en-US', {
-      weekday: 'long',
-      month: 'long',
-      day: 'numeric',
-      year: 'numeric'
-    });
-  };
+  if (!currentDate) {
+    return <span>Loading date...</span>;
+  }
 
   return (
-    <div className='text-slate-500'>
-      {formatDate(currentDate)}
-    </div>
+    <span>
+      {currentDate.toLocaleDateString("en-US", {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      })}
+    </span>
   );
 }
