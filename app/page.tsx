@@ -134,7 +134,7 @@ function Hero() {
             sizes="100vw"
           />
           {/* Dark overlay — keeps text readable over any photo */}
-          <div className="absolute inset-0 bg-red-500/50" />
+          <div className="absolute inset-0 bg-black/45" />
           {/* Subtle blue tint for brand consistency */}
         
         </motion.div>
