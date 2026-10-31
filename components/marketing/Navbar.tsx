@@ -150,7 +150,7 @@ export default function Navbar() {
             <Image
                         src="/images/logoo1.png"
                         alt=" logo"
-                        width={156}
+                        width={70}
                         height={56}
                         className="rounded-2xl"
                         priority
@@ -294,14 +294,14 @@ export default function Navbar() {
                 {/* Mobile CTAs */}
                 <div className="pt-3 space-y-2 border-t border-slate-100">
                   <Link
-                    href="/sign-in"
+                    href="/login"
                     onClick={() => setMobileOpen(false)}
                     className="block w-full py-3 text-center text-sm font-medium border border-slate-200 text-slate-700 rounded-xl hover:bg-slate-50 transition-colors"
                   >
                     Sign in
                   </Link>
                   <Link
-                    href="/sign-up"
+                    href="/#"
                     onClick={() => setMobileOpen(false)}
                     className="block w-full py-3 text-center text-sm font-semibold bg-blue-600 text-white rounded-xl hover:bg-blue-500 transition-colors"
                   >
