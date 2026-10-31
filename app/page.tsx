@@ -417,7 +417,7 @@ function AppShowcase() {
                 */}
                 <div className="relative w-72 h-140 sm:w-80 sm:h-155">
                   <Image
-                    src="/images/mockup1.jpg"
+                    src="/images/mockup1.png"
                     alt="Hand holding an iPhone displaying the SecureBank mobile banking dashboard with account balances and recent transactions"
                     fill
                     className="object-contain drop-shadow-2xl"
