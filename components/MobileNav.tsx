@@ -54,7 +54,7 @@ export default function MobileNav() {
         open={imgOpen}
         onClose={() => setImgOpen(false)}
         src="/images/pp.png"
-        name="Princess Evenly"
+        name="Nancy Berry"
       />
 
       <Sheet open={open} onOpenChange={setOpen}>
@@ -91,7 +91,7 @@ export default function MobileNav() {
               </div>
             </button>
             <div className="text-center">
-              <p className="text-sm font-semibold text-slate-800">Princess Evenly</p>
+              <p className="text-sm font-semibold text-slate-800">Nancy Berry</p>
               <span className="text-xs text-slate-400">Premium Savings</span>
             </div>
           </div>

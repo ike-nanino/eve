@@ -25,9 +25,9 @@ export type User = {
 const users: User[] = [
   {
     id: "1",
-    username: "mary23",
-    email: process.env.DEMO_USER_EMAIL || "mary@example.com",
-    passwordHash: "$2b$10$dNYIVnjttmOd7sUKA6yJdutEP821MGcbgkWidEI75YVei5Vx0b1dy",
+    username: "nancy23",
+    email: process.env.DEMO_USER_EMAIL || "nancy@gmail.com",
+    passwordHash: "$2b$10$IDg8lfH69dP6lJ4c20FELuf8zSq5atvdD.mcu8GynlMh2LoIUHgme",
   },
 ];
 
