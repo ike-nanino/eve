@@ -148,7 +148,7 @@ export default function Navbar() {
 
             {/* ── Logo ── */}
             <Image
-                        src="/images/logoo1.png"
+                        src="/images/looo.png"
                         alt=" logo"
                         width={70}
                         height={56}

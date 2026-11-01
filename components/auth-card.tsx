@@ -15,7 +15,7 @@ export function AuthCard({
       <div className="w-full max-w-sm">
          <Link href="/" className="mb-8 flex items-center justify-center gap-2 font-semibold">
            <Image
-                    src="/images/logoo1.png"
+                    src="/images/looo.png"
                     width={200}
                     height={60}
                     alt="logo"

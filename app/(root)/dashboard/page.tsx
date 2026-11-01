@@ -597,19 +597,19 @@ export default function Dashboard() {
   const accounts = [
     {
       name: 'Checking',
-      balance: 5845.20,
+      balance: 7845.20,
       change: 4.2,
       color: 'bg-gradient-to-br from-blue-500 to-blue-600',
       history: [5200, 5400, 5100, 5600, 5750, 5690, 5845],
       transactions: [
-        { desc: 'Grocery Store',    amt: -85.20,  date: 'Today'     },
-        { desc: 'Salary deposit',   amt: 2750.00, date: 'Yesterday' },
-        { desc: 'Electric bill',    amt: -124.50, date: 'Apr 18'    },
+        { desc: 'Papa`s Pizza',    amt: -30.20,  date: 'Oct 27'     },
+        { desc: 'Salary deposit',   amt: 2750.00, date: 'Sep 29' },
+        { desc: 'Electric bill',    amt: -124.50, date: 'Sep 25'    },
       ],
     },
     {
       name: 'Savings',
-      balance: 12350.75,
+      balance: 16350.75,
       change: 1.8,
       color: 'bg-gradient-to-br from-emerald-500 to-emerald-600',
       history: [11200, 11500, 11800, 12000, 12100, 12250, 12350],
@@ -620,7 +620,7 @@ export default function Dashboard() {
     },
     {
       name: 'Investments',
-      balance: 32640.50,
+      balance: 38640.50,
       change: 7.5,
       color: 'bg-gradient-to-br from-purple-500 to-purple-600',
       history: [28000, 29500, 30200, 31000, 31800, 32100, 32640],
@@ -632,10 +632,10 @@ export default function Dashboard() {
   ]
 
   const recentTransactions = [
-    { id: 1, name: 'Grocery Store',       amount: -85.20,  date: 'Today',     icon: '🛒' },
-    { id: 2, name: 'Salary Deposit',      amount: 2750.00, date: 'Yesterday', icon: '💼' },
-    { id: 3, name: 'Electric Bill',       amount: -124.50, date: 'Apr 18',    icon: '⚡' },
-    { id: 4, name: 'Netflix Subscription',amount: -15.99,  date: 'Apr 15',    icon: '📺' },
+    { id: 1, name: 'Papa`s Pizza',       amount: -30.20,  date: 'Oct 27',     icon: '🍕' },
+    { id: 2, name: 'Salary Deposit',      amount: 2750.00, date: 'Sep 29', icon: '💼' },
+    { id: 3, name: 'Electric Bill',       amount: -124.50, date: 'Sep 25',    icon: '⚡' },
+    { id: 4, name: 'Netflix Subscription',amount: -26.99,  date: 'Sep 20',    icon: '📺' },
   ]
 
   const expenseCategories = [

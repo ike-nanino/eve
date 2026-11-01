@@ -43,7 +43,7 @@ export default function Sidebar() {
       <ProfileImageModal
         open={imgOpen}
         onClose={() => setImgOpen(false)}
-        src="/images/profile.jpg"
+        src="/images/pp.png"
         name="Princess Evenly"
       />
 
@@ -58,7 +58,7 @@ export default function Sidebar() {
           >
             <div className="w-14 h-14 rounded-2xl bg-gray-100 overflow-hidden ring-2 ring-blue-100 transition-all group-hover:ring-blue-400">
               <Image
-                src="/images/profile.jpg"
+                src="/images/pp.png"
                 alt="User Avatar"
                 width={56}
                 height={56}

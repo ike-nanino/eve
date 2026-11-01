@@ -204,8 +204,8 @@ export default function DepositPage() {
         {/* Balance strip */}
         <div className="grid grid-cols-3 gap-3 mb-4">
           {[
-            { label: "Checking", value: "$4,231.00", sub: "••4821" },
-            { label: "Savings", value: "$12,540.50", sub: "••9302" },
+            { label: "Checking", value: "$7,845.20", sub: "••4821" },
+            { label: "Savings", value: "$16,350.75", sub: "••9302" },
             { label: "Daily limit", value: "$10,000", sub: "remaining" },
           ].map((b) => (
             <div

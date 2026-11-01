@@ -53,7 +53,7 @@ export default function MobileNav() {
       <ProfileImageModal
         open={imgOpen}
         onClose={() => setImgOpen(false)}
-        src="/images/profile.jpg"
+        src="/images/pp.png"
         name="Princess Evenly"
       />
 
@@ -79,7 +79,7 @@ export default function MobileNav() {
             >
               <div className="w-16 h-16 rounded-2xl bg-gray-100 overflow-hidden ring-2 ring-blue-100 group-hover:ring-blue-400 transition-all">
                 <Image
-                  src="/images/profile.jpg"
+                  src="/images/pp.png"
                   alt="User Avatar"
                   width={64}
                   height={64}
