@@ -25,10 +25,9 @@ export type User = {
 const users: User[] = [
   {
     id: "1",
-    username: "Evelyn23",
-    // Put YOUR email in .env.local (DEMO_USER_EMAIL) so the 2FA code reaches you.
-    email: process.env.DEMO_USER_EMAIL || "demo@example.com",
-    passwordHash: "2b$10$Lw.G6nCPE1/tqFzz2Biywut0oii0WuWy/eIDVo1Iocp7CLeBVzMK6",
+    username: "mary23",
+    email: process.env.DEMO_USER_EMAIL || "mary@example.com",
+    passwordHash: "$2b$10$dNYIVnjttmOd7sUKA6yJdutEP821MGcbgkWidEI75YVei5Vx0b1dy",
   },
 ];
 
