@@ -197,7 +197,7 @@ function Hero() {
           transition={{ delay: 0.4 }}
           className="text-slate-300 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          Chase Bank gives you the power to manage, grow, and protect your
+          сhаse Bank gives you the power to manage, grow, and protect your
           money — all from one beautifully simple dashboard.
           Open an account in minutes.
         </motion.p>
@@ -331,7 +331,7 @@ function Features() {
             Everything you need.<br />Nothing you don&apos;t.
           </h2>
           <p className="text-slate-500 text-lg max-w-xl mx-auto">
-            We built Chase Bank to be the only banking app you&apos;ll ever need.
+            We built сhаse Bank to be the only banking app you&apos;ll ever need.
           </p>
         </FadeIn>
 
@@ -368,7 +368,7 @@ function AppShowcase() {
               Your entire bank in your pocket
             </h2>
             <p className="text-slate-500 text-lg leading-relaxed mb-8">
-              Chase Bank app puts full banking control in your hands.
+              сhаse Bank app puts full banking control in your hands.
               Check balances, send money, deposit cheques, freeze cards,
               and track spending — all from one beautifully designed interface
               that works on any device.
@@ -902,12 +902,12 @@ function FAQ() {
   const [open, setOpen] = useState<number | null>(null);
 
   const faqs = [
-    { q: "Is Chase Bank a real FDIC-insured bank?",         a: "Yes. Chase Bank is a federally chartered bank, FDIC-insured up to $250,000 per depositor. Your deposits are protected by the full faith of the US government — the same protection as any major bank." },
+    { q: "Is сhаse Bank a real FDIC-insured bank?",         a: "Yes. сhаse Bank is a federally chartered bank, FDIC-insured up to $250,000 per depositor. Your deposits are protected by the full faith of the US government — the same protection as any major bank." },
     { q: "How long does it take to open an account?",       a: "Most accounts are fully open in under 5 minutes. You'll need a government-issued ID and your Social Security number. There's no paperwork and no branch visit required." },
     { q: "Are there any monthly or hidden fees?",           a: "Our Basic plan is completely free — no monthly fees, no minimum balance, no surprises. Premium and Business plans have a flat monthly fee with a free 30-day trial." },
     { q: "How does the 4.65% APY savings rate work?",       a: "Your entire savings balance earns 4.65% APY, compounded daily and credited to your account monthly. There are no rate tiers — everyone earns the same rate from dollar one." },
-    { q: "What happens to my money if Chase Bank closes?",  a: "All deposits are FDIC-insured up to $250,000 per depositor. Beyond that, Chase Bank maintains capital reserves significantly above the regulatory minimum." },
-    { q: "Can I use Chase Bank outside the United States?", a: "Yes. Our debit and credit cards work in 150+ countries with no foreign transaction fees. International wire transfers are available to 80+ countries with real mid-market exchange rates." },
+    { q: "What happens to my money if сhаse Bank closes?",  a: "All deposits are FDIC-insured up to $250,000 per depositor. Beyond that, сhаse Bank maintains capital reserves significantly above the regulatory minimum." },
+    { q: "Can I use сhаse Bank outside the United States?", a: "Yes. Our debit and credit cards work in 150+ countries with no foreign transaction fees. International wire transfers are available to 80+ countries with real mid-market exchange rates." },
   ];
 
   return (
